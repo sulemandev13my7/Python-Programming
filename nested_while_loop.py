@@ -36,14 +36,14 @@ while i < len(board):
 students=["salman","usman","ayan"];
 marks=[{"Math":98,"science":75,"english":56},{"Math":87,"science":65,"english":54},{"Math":98,"science":75,"english":56}];
 
-i = 0;
-while i < len(students):
-    print(f"Student Name: {students[i]}");
-    j = 0;
-    while j < len(marks[i]):
-        subject = list(marks[i].keys())[j];
-        score = marks[i][subject];
-        print(f"{subject}: {score}");
-        j += 1;
-    print("-" * 20);
-    i += 1;
+# i = 0;
+# while i < len(students):
+#     print(f"Student Name: {students[i]}");
+#     j = 0;
+#     while j < len(marks[i]):
+#         subject = list(marks[i].keys())[j];
+#         score = marks[i][subject];
+#         print(f"{subject}: {score}");
+#         j += 1;
+#     print("-" * 20);
+#     i += 1;
