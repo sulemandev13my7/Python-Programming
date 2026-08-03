@@ -124,3 +124,72 @@ print(text.replace("Java","Python",2));
 
 
 
+print("Python123".isalnum())
+print("Python 123".isalnum())
+print("Python@123".isalnum())
+
+print("Python".isalpha())
+print("Python language".isalpha())
+
+
+print("1324".isnumeric())
+
+
+
+print("python".islower())
+print("python langauge".islower())
+print("python 1234".islower())
+print("python1234".islower())
+
+
+print("PYTHON".isupper())
+print("PYTHON LANGAUAGE".isupper())
+print("PYTHON 1234".isupper())
+print("PYTHON1234".isupper())
+
+
+print("PYTHON LANGAUAGE".isspace())
+print(" ".isspace())
+print("\t".isspace())
+print("\n".isspace())
+print("\t\n".isspace())
+
+
+text = "python";
+print(text.center(20))
+print(text.center(20,"*"))
+
+
+print(text.ljust(20,"*"))
+print(text.rjust(20,"*"))
+
+
+number = "25";
+
+print(number.zfill(5));
+
+
+name = "John";
+age = 24;
+
+print(f"Hello {name}")
+print("Hello {}".format(name))
+print("Name {}, age {}".format(name,age))
+print("Name: {}, age: {}".format(name,age))
+print("Name: {1}, age: {0}".format(name,age))
+
+print("{:^10}".format("Python"))
+print("|{:^10}|".format("Python"))
+print("|{:<10}|".format("Python"))
+print("|{:>10}|".format("Python"))
+
+
+
+std={
+    "name":"suleman",
+    "age":21,
+    "city":"Karachi"
+}
+
+text = "{name} is {age} years old and lived in {city}"
+print(text.format_map(std))
