@@ -1,0 +1,73 @@
+number = [1,2,3,4,5,6]
+
+square = [];
+
+for num in number:
+    square.append(num * 2)
+    
+print(square)
+
+
+number = [1,2,3,4,5,6]
+square=[num ** 2 for num in number];
+print(square);
+
+
+names = ["salman","usman","ayan"];
+upper = [name.upper() for name in names];
+print(upper);
+
+
+
+names = ["salman","usman","ayan"];
+length = [len(name) for name in names];
+print(length);
+
+
+
+number = [1,2,3,4,5,6,7,8];
+evens = [num for num in number if num % 2 == 0];
+print(evens)
+
+
+
+number = [1,2,3,4,5,6,7,8];
+odd = [num for num in number if num % 2 != 0];
+print(odd)
+
+
+
+text = "A1B2C3D4";
+digits = [ch for ch in text if ch.isdigit()]
+print(digits)
+
+
+number = range(1,11);
+result = [n **2 for n in number if n % 2 == 0];
+print(result);
+
+
+
+marks = [34,67,90,23,56];
+status = ["Pass" if m >= 40 else "Fail" for m in marks]
+print(status)
+
+
+
+matrix = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+];
+
+flat = [num for row in matrix for num in row];
+print(flat);
+
+
+flat = [];
+
+for row in matrix:
+    for num in row:
+        flat.append(num);
+
+print(flat);

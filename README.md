@@ -1,57 +1,114 @@
+# Python Basics Practice Repository
 
+This repository covers essential Python basics and intermediate concepts through step-by-step practice. Each file focuses on a specific topic and serves as a practical resource for beginners.
 
-## 📚 Repository Overview
+## 🎯 Purpose of This Repository
 
-Is project mein in basic concepts ko cover kiya gaya hai:
+This repo is designed to help you build a strong foundation in Python through hands-on practice. It includes topics such as:
 
-- Variables aur naming conventions
-- Data types
-- Lists, tuples, dictionaries, aur sets
-- User input
-- Arithmetic, comparison, logical, identity, membership, aur bitwise operators
-- Conditional statements
+- Variables and data types
+- Operators and user input
+- Conditional statements and loops
+- Collections: lists, tuples, dictionaries, and sets
+- Functions and advanced concepts
+- Closures, decorators, generators, and list comprehensions
 
-## 🗂️ File-wise Guide
-
-| File                                   | Topic                            | Purpose                                                                            |
-| -------------------------------------- | -------------------------------- | ---------------------------------------------------------------------------------- |
-| 01_first_program.py                    | First Program                    | Basic print statements, comments, aur simple Python syntax.                        |
-| 02_variables.py                        | Variables                        | Variables define karna, values assign karna aur naming styles samjhana.            |
-| 03_data_types.py                       | Data Types                       | Integer, float, complex, string, list, tuple, dictionary, set, boolean, bytes etc. |
-| 04_lists_and_tuples.py                 | Lists and Tuples                 | List aur tuple ki basic understanding aur indexing.                                |
-| 05_list_methods.py                     | List Methods                     | append, insert, extend, copy, count, index, len, min, max jaise methods.           |
-| 06_tuple_methods.py                    | Tuple Methods                    | Tuple ke methods, packing, unpacking, nested tuples aur indexing.                  |
-| 07_dictionaries.py                     | Dictionaries                     | Key-value pairs, access, nested dictionaries aur loops.                            |
-| 08_dictionary_methods.py               | Dictionary Methods               | get, keys, items, fromkeys, pop, popitem, clear, update, copy, setdefault.         |
-| 09_sets_basics.py                      | Sets Basics                      | Set ki basic concept aur common methods.                                           |
-| 10_set_operations.py                   | Set Operations                   | Union, intersection, difference, symmetric difference, subset aur superset.        |
-| 11_user_input.py                       | User Input                       | input() use karna, type conversion, formatting aur basic error handling.           |
-| 12_arithmetic_operators.py             | Arithmetic Operators             | +, -, \*, /, %, // jaise arithmetic operators.                                     |
-| 13_comparison_and_logical_operators.py | Comparison and Logical Operators | Comparison aur logical operators ka use.                                           |
-| 14_identity_and_membership.py          | Identity and Membership          | is, is not, in, not in operators.                                                  |
-| 15_bitwise_operators.py                | Bitwise Operators                | AND, OR, XOR, NOT, left shift aur right shift.                                     |
-| 16_assignment_operators.py             | Assignment Operators             | Compound assignment operators jaise +=, -=, \*=, //=, etc.                         |
-| 17_if_statements.py                    | If Statement                     | Basic if aur else conditions.                                                      |
-| 18_if_elif_statements.py               | If-Elif-Else                     | Multiple conditions aur decision making.                                           |
-| 19_nested_if_statements.py             | Nested Conditions                | Nested if statements aur advanced logic.                                           |
+## 📚 Topics Covered
 
 ### Beginner Level
 
-- Understand Python syntax
-- Learn variables and data types
-- Practice operators
-- Work with input and output
+- First Python program and syntax
+- Variables and naming conventions
+- Data types and type casting
+- User input and basic output
+- Arithmetic, comparison, logical, identity, and membership operators
 
 ### Intermediate Level
 
-- Learn functions and loops
-- Practice lists, tuples, dictionaries, sets in depth
-- Understand conditionals and error handling
+- Conditional statements: if, elif, else
+- Loops: for and while
+- Break, continue, and pass statements
+- Strings and string methods
+- Functions, nested functions, lambda, and recursion
 
 ### Advanced Level
 
-- Work with file handling
-- Learn classes and objects
-- Practice modules, packages, and libraries
-- Build mini projects
+- Closures and decorators
+- Generators and first-class functions
+- Map, filter, and list comprehension
+- Variable scope and keyword arguments
 
+## 🗂️ File Overview
+
+- 01_first_program.py — Basic Python syntax and first program
+- 02_variables.py — Variables and assignment
+- 03_data_types.py — Different Python data types
+- 04_lists_and_tuples.py — Lists and tuples basics
+- 05_list_methods.py — Common list methods
+- 06_tuple_methods.py — Tuple operations and unpacking
+- 07_dictionaries.py — Dictionary basics
+- 08_dictionary_methods.py — Dictionary methods
+- 09_sets_basics.py — Set basics
+- 10_set_operations.py — Set operations
+- 11_user_input.py — Input handling
+- 12_arithmetic_operators.py — Arithmetic operators
+- 13_comparison_and_logical_operators.py — Comparison and logical operators
+- 14_identity_and_membership.py — is, in, and not in operators
+- 15_bitwise_operators.py — Bitwise operations
+- 16_assignment_operators.py — Compound assignment operators
+- 17_if_statements.py — If statements
+- 18_if_elif_statements.py — If-elif-else statements
+- 19_nested_if_statements.py — Nested conditions
+- 20_Conditional_Expression.py — Conditional expressions
+- 21_Match_statement.py — Match-case statements
+- 22_for_loop.py — For loop examples
+- 22_while_loop.py — While loop examples
+- 23_nested_for_loop.py — Nested for loops
+- 24_nested_while_loop.py — Nested while loops
+- 25_Break_statement.py — Break statement usage
+- 26_Continue_pass_statement.py — Continue and pass statements
+- 27_PathernI.py — Pattern printing exercise I
+- 28_PathernII.py — Pattern printing exercise II
+- 29_Pathern3.py — Pattern printing exercise III
+- 30_pathern4.py — Pattern printing exercise IV
+- 31_function.py — Function basics
+- 32_function_return.py — Function return values
+- 33_variable_length.py — Variable-length arguments
+- 34_keyword_args.py — Keyword arguments
+- 35_nested_function.py — Nested functions
+- 36_variable_scope.py — Variable scope
+- 37_lambda_function.py — Lambda functions
+- 38_recursive_function.py — Recursion
+- 39_first_class_function.py — First-class functions
+- 40_map()\_filter().py — Map and filter examples
+- 41_closure.py — Closures
+- 42_decorator.py — Decorators
+- 43_Generator.py — Generators
+- 44_StringMethod.py — String methods
+- 45_Type_Casting.py — Type conversion examples
+- 46_List_Comprehension.py — List comprehension examples
+
+## ▶️ How to Run Files
+
+Use Python to run any file:
+
+```bash
+python 01_first_program.py
+```
+
+Or on Windows:
+
+```bash
+py 01_first_program.py
+```
+
+## 🧭 Suggested Learning Path
+
+1. Start from 01 to 16 for basics and operators
+2. Practice control flow from 17 to 26
+3. Learn functions from 31 to 39
+4. Explore advanced concepts from 40 to 46
+
+## 📝 Notes
+
+This repository is intended for practice, revision, and building a strong foundation in Python programming.
