@@ -15,15 +15,33 @@ def num(number):
 print(num(8))
 
 
-def total(number):
-    result=0;
+# def total(number):
+#     result=0;
     
+#     for num in number:
+#         result += num;
+    
+#     return result
+
+    
+# marks=[1,34,60,90];
+
+# print(total(marks));
+
+
+
+def total(number):
+    result = 0;
     for num in number:
         result += num;
-    
-    return result
+        
+    return result;
 
-    
-marks=[1,34,60,90];
+def percentage(allMarks):
+    per = (total(allMarks) / 400) * 100 
+    return per
 
-print(total(marks));
+marks = [80,52,84,96,78];
+
+res = percentage(marks);
+print(res,"%");
