@@ -71,3 +71,29 @@ for row in matrix:
         flat.append(num);
 
 print(flat);
+
+
+
+numbers=[1,2,3,4,5,5,6,7,8,9,10];
+
+unique = {num for num in numbers}
+print(unique)
+
+
+
+numbers=[1,2,3,4,5,6,7,8,9,10];
+
+unique = {num ** num for num in numbers}
+print(unique)
+
+
+
+tupleSquare = tuple(x ** 2 for x in range(5));
+print(tupleSquare)
+
+
+number=[1,2,3,4,5]
+
+square_dict = {n: n*n for n in number}
+
+print(square_dict)
