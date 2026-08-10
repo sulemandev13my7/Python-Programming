@@ -97,3 +97,39 @@ number=[1,2,3,4,5]
 square_dict = {n: n*n for n in number}
 
 print(square_dict)
+
+
+
+students = ["salman","usman","ayan"]
+res = {name:len(name) for name in students}
+print(res)
+
+words = ["salman","usman","ayan","salman","usman","ayan"]
+frequency = {word:words.count(word) for word in set(words)}
+print(frequency)
+
+
+Student = [("salman", 90), ("usman", 80), ("ayan", 70)]
+grade_dict = {
+    name: 'A'
+    if score >= 90 else 'B' 
+    if score >= 80 else 'C' 
+    for name, score in Student
+}
+
+print(grade_dict)
+
+
+gen = (x*x for x in range(5))
+print(gen)
+print(list(gen))
+
+even_gen = (x for x in range(10) if x % 2 == 0)
+print(even_gen)
+print(list(even_gen))
+
+name = ["Salman","Usman","Ayan"];
+
+upper = (n.upper() for n in name);
+print(upper)
+print(list(upper))
