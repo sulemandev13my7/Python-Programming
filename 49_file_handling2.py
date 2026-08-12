@@ -71,10 +71,24 @@
 
 
 
-f = open("students1.txt","x");
+# f = open("students1.txt","x");
 
-f.write("Python")
+# f.write("Python")
 
-f.close()
+# f.close()
 
 
+
+# import os
+
+# os.remove("students1.txt")
+
+
+
+import os
+
+if os.path.exists("students1.txt"):
+    os.remove("students1.txt")
+    print("File deleted")
+else:
+    print("File not found")
