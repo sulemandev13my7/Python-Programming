@@ -56,14 +56,14 @@
 #     print("Some thing went wrong");
     
 
-try:
-    num = int(input("Enter Number : "));
-    print(100/num);
-except ZeroDivisionError as e:
-    print("Error : " + e);
-except ValueError as e:
-    print(e);
+# try:
+#     num = int(input("Enter Number : "));
+#     print(100/num);
+# except ZeroDivisionError as e:
+#     print("Error : " + e);
+# except ValueError as e:
+#     print(e);
     
-except Exception as e:
-    print("some thing went wrong",e);
+# except Exception as e:
+#     print("some thing went wrong",e);
     
